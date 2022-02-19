@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitLabGames.User.API", "LitLabGames.User.API\LitLabGames.User.API.csproj", "{607ED892-1EEA-4BDD-B2A7-79A492969068}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.DistributedServices", "01.DistributedServices", "{9E75D596-DAAE-4D76-A873-C27224DDF823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Application", "02.Application", "{D053CBFD-3593-4AA2-8CAA-6A2B83001F4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{F494C11D-D6D9-4F51-906F-5A0F832531A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Infrastructure", "04.Infrastructure", "{BB310B12-E952-455C-8440-84EF762938FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Crosscutting", "05.Crosscutting", "{3EF4B05B-FB41-4D00-A9A7-CEA375D97420}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Testing", "06.Testing", "{D0D13832-88AE-4ECA-84AD-182B78A44AF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitLabGames.User.DataAccess", "LitLabGames.User.DataAccess\LitLabGames.User.DataAccess.csproj", "{E35147B0-5216-4970-B8D5-9E475409BE83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitLabGames.User.Domain", "LitLabGames.User.Domain\LitLabGames.User.Domain.csproj", "{82BD5B9F-D7EC-4615-8DDD-3D7D08D38417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitLabGames.User.Crosscutting", "LitLabGames.User.Crosscutting\LitLabGames.User.Crosscutting.csproj", "{E3C75249-14DF-45A0-8CA5-6E2EF0FF8745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitLabGames.User.ServiceLibrary", "LitLabGames.User.ServiceLibrary\LitLabGames.User.ServiceLibrary.csproj", "{552D425E-57A7-47B7-92C3-1AAD4B975FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitLabGames.API.Tests", "LitLabGames.API.Tests\LitLabGames.API.Tests.csproj", "{050BCB28-4890-4B8D-8A6D-FC609C2B5281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitLabGames.ServiceLibrary.Tests", "LitLabGames.ServiceLibrary.Tests\LitLabGames.ServiceLibrary.Tests.csproj", "{33038FA4-C8AA-4357-BE00-3E11575B3A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitLabGames.DataAccess.Tests", "LitLabGames.DataAccess.Tests\LitLabGames.DataAccess.Tests.csproj", "{07765B56-F1B2-41CD-BC93-8BF8ACDA1EB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607ED892-1EEA-4BDD-B2A7-79A492969068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607ED892-1EEA-4BDD-B2A7-79A492969068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607ED892-1EEA-4BDD-B2A7-79A492969068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607ED892-1EEA-4BDD-B2A7-79A492969068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35147B0-5216-4970-B8D5-9E475409BE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35147B0-5216-4970-B8D5-9E475409BE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35147B0-5216-4970-B8D5-9E475409BE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35147B0-5216-4970-B8D5-9E475409BE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BD5B9F-D7EC-4615-8DDD-3D7D08D38417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BD5B9F-D7EC-4615-8DDD-3D7D08D38417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BD5B9F-D7EC-4615-8DDD-3D7D08D38417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BD5B9F-D7EC-4615-8DDD-3D7D08D38417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C75249-14DF-45A0-8CA5-6E2EF0FF8745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C75249-14DF-45A0-8CA5-6E2EF0FF8745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C75249-14DF-45A0-8CA5-6E2EF0FF8745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C75249-14DF-45A0-8CA5-6E2EF0FF8745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552D425E-57A7-47B7-92C3-1AAD4B975FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552D425E-57A7-47B7-92C3-1AAD4B975FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552D425E-57A7-47B7-92C3-1AAD4B975FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552D425E-57A7-47B7-92C3-1AAD4B975FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050BCB28-4890-4B8D-8A6D-FC609C2B5281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050BCB28-4890-4B8D-8A6D-FC609C2B5281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050BCB28-4890-4B8D-8A6D-FC609C2B5281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050BCB28-4890-4B8D-8A6D-FC609C2B5281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33038FA4-C8AA-4357-BE00-3E11575B3A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33038FA4-C8AA-4357-BE00-3E11575B3A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33038FA4-C8AA-4357-BE00-3E11575B3A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33038FA4-C8AA-4357-BE00-3E11575B3A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07765B56-F1B2-41CD-BC93-8BF8ACDA1EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07765B56-F1B2-41CD-BC93-8BF8ACDA1EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07765B56-F1B2-41CD-BC93-8BF8ACDA1EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07765B56-F1B2-41CD-BC93-8BF8ACDA1EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{607ED892-1EEA-4BDD-B2A7-79A492969068} = {9E75D596-DAAE-4D76-A873-C27224DDF823}
+		{E35147B0-5216-4970-B8D5-9E475409BE83} = {BB310B12-E952-455C-8440-84EF762938FE}
+		{82BD5B9F-D7EC-4615-8DDD-3D7D08D38417} = {F494C11D-D6D9-4F51-906F-5A0F832531A5}
+		{E3C75249-14DF-45A0-8CA5-6E2EF0FF8745} = {3EF4B05B-FB41-4D00-A9A7-CEA375D97420}
+		{552D425E-57A7-47B7-92C3-1AAD4B975FAD} = {D053CBFD-3593-4AA2-8CAA-6A2B83001F4D}
+		{050BCB28-4890-4B8D-8A6D-FC609C2B5281} = {D0D13832-88AE-4ECA-84AD-182B78A44AF4}
+		{33038FA4-C8AA-4357-BE00-3E11575B3A51} = {D0D13832-88AE-4ECA-84AD-182B78A44AF4}
+		{07765B56-F1B2-41CD-BC93-8BF8ACDA1EB7} = {D0D13832-88AE-4ECA-84AD-182B78A44AF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71418596-BF44-4486-9A25-0E411F0F6C38}
+	EndGlobalSection
+EndGlobal
